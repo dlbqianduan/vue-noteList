@@ -5,6 +5,7 @@
 </template>
 
 <script>
+  import bigbg from '@/assets/bigbg.jpg'
 export default {
   name: 'App'
 }
@@ -14,6 +15,12 @@ export default {
 *{
   margin:0;
   padding:0;
+}
+    body,html{
+  width:100%;
+  height:100%;
+  background:rgb(247,247,247);
+  background-attachment: fixed;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
